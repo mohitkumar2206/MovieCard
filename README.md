@@ -1,54 +1,70 @@
-📌 Project Overview
 
-This is a responsive Movie Cards website built using HTML and CSS. The project displays movie cards in a responsive grid layout with movie posters, titles, genres, descriptions, and a "Get Tickets" button.
+# 🎬 Responsive Movie Cards
 
-✨ Features
-Responsive Grid Layout
-Movie Poster Cards
-Hover Effects
-Mobile Friendly Design
-Modern UI using CSS
-Smooth Button Animations
-🛠️ Technologies Used
-HTML5
-CSS3
-CSS Grid
-Media Queries
-📷 Movies Included
-Avengers Endgame
-Interstellar
-Joker
-Inception
-Titanic
-Avatar
-Rush
-Peaky Blinders
-Oppenheimer
-MS Dhoni: The Untold Story
-📂 Project Structure
-Movie-Cards/
+A simple and responsive movie card website built using HTML and CSS. The project displays multiple movie cards with posters, titles, genres, descriptions, and ticket booking buttons.
+
+## ✨ Features
+
+- Responsive Grid Layout
+- Modern Movie Card Design
+- Hover Animation Effects
+- Movie Posters and Details
+- Mobile-Friendly Interface
+- Easy to Customize
+
+## 🛠 Technologies Used
+
+- HTML5
+- CSS3
+- CSS Grid
+- Media Queries
+
+## 🚀 How to Run
+
+1. Clone the repository
+
+```bash
+t
+```
+
+2. Open the project folder
+
+```bash
+cd responsive-movie-cards
+```
+
+3. Open `index.html` in your browser
+
+## 📂 Project Structure
+
+```text
+responsive-movie-cards/
 │
 ├── index.html
 ├── README.md
-├── images/
-│   ├── intersteller.jpg
-│   ├── Titanic-1.jpg
-│   ├── images.jpg
-│   ├── images (1).jpg
-│   ├── images (2).jpg
-│   └── images (3).jpg
-🚀 How to Run
-Download or clone the repository.
-Open index.html in your browser.
-Enjoy the responsive movie cards website.
-📱 Responsive Design
+├── intersteller.jpg
+├── Titanic-1.jpg
+├── images.jpg
+├── images (1).jpg
+├── images (2).jpg
+└── images (3).jpg
+```
 
-The website automatically adjusts for:
+## 🎥 Movies Included
 
-Desktop
-Tablet
-Mobile Devices
-👨‍💻 Author
+- Avengers Endgame
+- Interstellar
+- Joker
+- Inception
+- Titanic
+- Avatar
+- Rush
+- Peaky Blinders
+- Oppenheimer
+- MS Dhoni: The Untold Story
 
-Mohit Kumar
-BCA Student | Web Development Learnering
+## 👨‍💻 Author
+
+**Mohit Kumar**
+
+BCA Student | Web Development Learner
