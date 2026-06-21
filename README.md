@@ -1,8 +1,8 @@
-# 🎬 Responsive Movie Cards
+# Responsive Movie Cards
 
 A simple and responsive movie card website built using HTML and CSS. The project displays multiple movie cards with posters, titles, genres, descriptions, and ticket booking buttons.
 
-## ✨ Features
+#  Features
 
 - Responsive Grid Layout
 - Modern Movie Card Design
@@ -11,45 +11,35 @@ A simple and responsive movie card website built using HTML and CSS. The project
 - Mobile-Friendly Interface
 - Easy to Customize
 
-## 🛠 Technologies Used
+# Technologies Used
 
 - HTML5
 - CSS3
 - CSS Grid
 - Media Queries
 
-## 🚀 How to Run
+# How to Run
 
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/responsive-movie-cards.git
+git clone https://github.com/mohitkumar2206/MovieCard.git
 ```
 
 2. Open the project folder
 
 ```bash
-cd responsive-movie-cards
+cd MovieCard
 ```
 
 3. Open `index.html` in your browser
 
-## 🎥 Movies Included
+#  GitHub Repository
 
-- Avengers Endgame
-- Interstellar
-- Joker
-- Inception
-- Titanic
-- Avatar
-- Rush
-- Peaky Blinders
-- Oppenheimer
-- MS Dhoni: The Untold Story
+Repository Link: https://github.com/mohitkumar2206/MovieCard
 
-## 👨‍💻 Author
+#  Author
 
-**Mohit Kumar**
-
+**Mohit Kumar**  
 BCA Student | Web Development Learner
 
