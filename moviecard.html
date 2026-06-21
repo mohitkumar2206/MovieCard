@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Movie Cards</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:lightblue;
+    padding:20px;
+}
+
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.movie-card{
+    background:#5a1313;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,0.4);
+    transition:0.3s;
+}
+
+.movie-card:hover{
+    transform:translateY(-8px);
+}
+
+.image-wrapper{
+    width:100%;
+    height:350px;
+}
+
+.movie-image{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.movie-details{
+    padding:15px;
+    color:white;
+}
+
+.movie-title{
+    font-size:22px;
+    margin-bottom:10px;
+}
+
+.movie-meta{
+    color:#ddd;
+    margin-bottom:10px;
+}
+
+.movie-desc{
+    font-size:14px;
+    margin-bottom:15px;
+    line-height:1.5;
+}
+
+.book-btn{
+    width:100%;
+    padding:12px;
+    border:none;
+    background:orange;
+    color:black;
+    font-size:16px;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.book-btn:hover{
+    background:yellow;
+    transform:scale(1.05);
+}
+
+@media(max-width:768px){
+
+    .image-wrapper{
+        height:300px;
+    }
+
+    .movie-title{
+        font-size:20px;
+    }
+
+}
+
+@media(max-width:480px){
+
+    body{
+        padding:10px;
+    }
+
+    .image-wrapper{
+        height:250px;
+    }
+
+    .movie-title{
+        font-size:18px;
+    }
+
+    .book-btn{
+        font-size:14px;
+        padding:10px;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card-container">
+
+<div class="movie-card">
+<div class="image-wrapper">
+<img class="movie-image" src="https://m.media-amazon.com/images/I/81ExhpBEbHL.jpg">
+</div>
+<div class="movie-details">
+<h2 class="movie-title">Avengers Endgame</h2>
+<p class="movie-meta">Action • 3h 2m</p>
+<p class="movie-desc">Marvel superheroes fight to save the universe.</p>
+<button class="book-btn">Get Tickets</button>
+</div>
+</div>
+
+<div class="movie-card">
+<div class="image-wrapper">
+<img class="movie-image" src="intersteller.jpg">
+</div>
+<div class="movie-details">
+<h2 class="movie-title">Interstellar</h2>
+<p class="movie-meta">Sci-Fi • 2h 49m</p>
+<p class="movie-desc">A team travels through space to save humanity.</p>
+<button class="book-btn">Get Tickets</button>
+</div>
+</div>
+
+<div class="movie-card">
+<div class="image-wrapper">
+<img class="movie-image" src="Joker_(2019_film)_poster.jpg">
+</div>
+<div class="movie-details">
+<h2 class="movie-title">Joker</h2>
+<p class="movie-meta">Drama • 2h 2m</p>
+<p class="movie-desc">The origin story of Gotham’s famous villain.</p>
+<button class="book-btn">Get Tickets</button>
+</div>
+</div>
+
+<div class="movie-card">
+<div class="image-wrapper">
+<img class="movie-image" src="https://m.media-amazon.com/images/I/91Rc8cAmnAL.jpg">
+</div>
+<div class="movie-details">
+<h2 class="movie-title">Inception</h2>
+<p class="movie-meta">Thriller • 2h 28m</p>
+<p class="movie-desc">A thief enters dreams to steal hidden secrets.</p>
+<button class="book-btn">Get Tickets</button>
+</div>
+</div>
+
+<div class="movie-card">
+<div class="image-wrapper">
+<img class="movie-image" src="Titanic-1.jpg">
+</div>
+<div class="movie-details">
+<h2 class="movie-title">Titanic</h2>
+<p class="movie-meta">Romance • 3h 14m</p>
+<p class="movie-desc">A romantic story on the ill-fated Titanic ship.</p>
+<button class="book-btn">Get Tickets</button>
+</div>
+</div>
+
+<div class="movie-card">
+<div class="image-wrapper">
+<img class="movie-image" src="https://m.media-amazon.com/images/I/41kTVLeW1CL.jpg">
+</div>
+<div class="movie-details">
+<h2 class="movie-title">Avatar</h2>
+<p class="movie-meta">Fantasy • 2h 42m</p>
+<p class="movie-desc">Humans explore the magical world of Pandora.</p>
+<button class="book-btn">Get Tickets</button>
+</div>
+</div>
+
+<div class="movie-card">
+<div class="image-wrapper">
+<img class="movie-image" src="images.jpg">
+</div>
+<div class="movie-details">
+<h2 class="movie-title">Rush</h2>
+<p class="movie-meta">Racing • 2h 39m</p>
+<p class="movie-desc">The car race are the referring to the 2013 biographical sports film.</p>
+<button class="book-btn">Get Tickets</button>
+</div>
+</div>
+
+<div class="movie-card">
+<div class="image-wrapper">
+<img class="movie-image" src="images (1).jpg">
+</div>
+<div class="movie-details">
+<h2 class="movie-title">Peaky blinder</h2>
+<p class="movie-meta">Action • 2h 35m</p>
+<p class="movie-desc">A powerful man rises in the slum in British politics.</p>
+<button class="book-btn">Get Tickets</button>
+</div>
+</div>
+
+<div class="movie-card">
+<div class="image-wrapper">
+<img class="movie-image" src="images (2).jpg">
+</div>
+<div class="movie-details">
+<h2 class="movie-title">Oppenheimer</h2>
+<p class="movie-meta">Scientist • 2h 59m</p>
+<p class="movie-desc">It is Story about first nuclear weapons.</p>
+<button class="book-btn">Get Tickets</button>
+</div>
+</div>
+
+<div class="movie-card">
+<div class="image-wrapper">
+<img class="movie-image" src="images (3).jpg">
+</div>
+<div class="movie-details">
+<h2 class="movie-title">Ms Dhoni untold Story</h2>
+<p class="movie-meta">Cricket • 3h 7m</p>
+<p class="movie-desc">It is the biophic of the legendary Indian crickter mahendra singh Dhoni.</p>
+<button class="book-btn">Get Tickets</button>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
